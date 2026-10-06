@@ -1,0 +1,11 @@
+component,impactScore,reason,commits
+CheckoutService,77.00,"filesChanged=7, codeChurn=420",1
+PaymentService,70.00,"filesChanged=6, codeChurn=400",1
+OrderService,63.00,"filesChanged=6, codeChurn=330",1
+AuthenticationService,56.00,"filesChanged=5, codeChurn=310",1
+InventoryService,50.00,"filesChanged=5, codeChurn=250",1
+SearchService,38.00,"filesChanged=4, codeChurn=180",1
+UserProfileService,36.00,"filesChanged=4, codeChurn=160",1
+CatalogService,26.00,"filesChanged=3, codeChurn=110",1
+ReportingService,23.50,"filesChanged=3, codeChurn=85",1
+NotificationService,16.00,"filesChanged=2, codeChurn=60",1

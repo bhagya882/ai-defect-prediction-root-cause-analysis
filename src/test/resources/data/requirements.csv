@@ -1,0 +1,11 @@
+requirementId,component,requirement,priority
+REQ-001,AuthenticationService,Reject expired access tokens,Critical
+REQ-002,AuthenticationService,Maintain refresh-token consistency,High
+REQ-003,CheckoutService,Calculate taxes correctly,Critical
+REQ-004,CheckoutService,Apply discount rules once,High
+REQ-005,PaymentService,Support safe payment retry,High
+REQ-006,PaymentService,Preserve transaction state on timeout,Critical
+REQ-007,OrderService,Maintain valid order-state transitions,High
+REQ-008,InventoryService,Prevent negative inventory,Critical
+REQ-009,SearchService,Return exact filter matches,Medium
+REQ-010,UserProfileService,Validate user profile inputs,Medium

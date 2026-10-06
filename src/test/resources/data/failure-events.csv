@@ -1,0 +1,9 @@
+failureId,component,testCase,errorType,message,commitId,severity
+F001,CheckoutService,TC-CHK-04,AssertionError,Expected tax 72.00 but was 68.00,c102,Critical
+F002,CheckoutService,TC-CHK-05,AssertionError,Discount total differs from expected,c102,High
+F003,PaymentService,TC-PAY-03,TimeoutException,Gateway response timed out,c103,High
+F004,PaymentService,TC-PAY-07,AssertionError,Retry created duplicate transaction,c103,Critical
+F005,AuthenticationService,TC-AUTH-02,AssertionError,Expired token was accepted,c101,Critical
+F006,OrderService,TC-ORD-06,AssertionError,Order moved to Shipped without confirmation,c107,High
+F007,InventoryService,TC-INV-05,AssertionError,Stock became negative after rollback,c109,High
+F008,SearchService,TC-SRCH-03,AssertionError,Exact filter match missing,c104,Medium

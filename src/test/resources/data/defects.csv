@@ -1,0 +1,13 @@
+defectId,component,type,severity,title,pattern
+D001,AuthenticationService,Functional,Critical,Expired token accepted,authentication
+D002,AuthenticationService,Security,High,Refresh token mismatch,authentication
+D003,CheckoutService,Functional,Critical,Tax total mismatch,calculation
+D004,CheckoutService,Functional,High,Discount applied twice,calculation
+D005,CheckoutService,Integration,High,Shipping service timeout not handled,dependency
+D006,PaymentService,Integration,Critical,Retry duplicated charge,retry
+D007,PaymentService,Integration,High,Gateway timeout loses transaction state,dependency
+D008,OrderService,Functional,High,Order status skips confirmation,workflow
+D009,InventoryService,Concurrency,High,Stock reservation race condition,concurrency
+D010,InventoryService,Functional,Medium,Negative stock after rollback,data
+D011,SearchService,Functional,Medium,Filter excludes exact match,search
+D012,UserProfileService,Functional,Medium,Invalid phone accepted,validation

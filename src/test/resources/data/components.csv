@@ -1,0 +1,11 @@
+component,complexity,filesChanged,methodChanges,testFailureCount,priorDefects,churnLines
+AuthenticationService,8,5,18,7,6,310
+CheckoutService,9,7,25,8,8,420
+PaymentService,9,6,21,6,7,390
+SearchService,6,4,12,3,3,180
+CatalogService,5,3,9,2,2,120
+UserProfileService,6,4,11,2,4,160
+OrderService,8,6,19,5,6,330
+NotificationService,4,2,7,1,1,70
+ReportingService,5,3,8,1,2,90
+InventoryService,7,5,14,4,5,250

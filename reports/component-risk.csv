@@ -1,0 +1,11 @@
+component,probability,riskLevel,evidence
+CheckoutService,0.9900,CRITICAL,"complexity=9, priorDefects=3, recentFailures=2, filesChanged=7"
+PaymentService,0.8590,CRITICAL,"complexity=9, priorDefects=2, recentFailures=2, filesChanged=6"
+AuthenticationService,0.7568,CRITICAL,"complexity=8, priorDefects=2, recentFailures=1, filesChanged=5"
+OrderService,0.5689,HIGH,"complexity=8, priorDefects=1, recentFailures=1, filesChanged=6"
+InventoryService,0.2939,LOW,"complexity=7, priorDefects=2, recentFailures=1, filesChanged=5"
+SearchService,0.1157,LOW,"complexity=6, priorDefects=1, recentFailures=1, filesChanged=4"
+UserProfileService,0.0796,LOW,"complexity=6, priorDefects=1, recentFailures=0, filesChanged=4"
+CatalogService,0.0454,LOW,"complexity=5, priorDefects=0, recentFailures=0, filesChanged=3"
+ReportingService,0.0260,LOW,"complexity=5, priorDefects=0, recentFailures=0, filesChanged=3"
+NotificationService,0.0201,LOW,"complexity=4, priorDefects=0, recentFailures=0, filesChanged=2"

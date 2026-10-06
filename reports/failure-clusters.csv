@@ -1,0 +1,7 @@
+clusterId,label,failureIds
+1,CheckoutService regression cluster,F001|F002
+2,PaymentService regression cluster,F003|F004
+3,AuthenticationService regression cluster,F005
+4,OrderService regression cluster,F006
+5,InventoryService regression cluster,F007
+6,SearchService regression cluster,F008

@@ -1,0 +1,9 @@
+failureId,component,rootCause,confidence,evidence
+F001,CheckoutService,Calculation/business-rule regression,HIGH,failure=AssertionError; relatedDefects=3; commit=c102 (Add discount and tax recalculation)
+F002,CheckoutService,Calculation/business-rule regression,HIGH,failure=AssertionError; relatedDefects=3; commit=c102 (Add discount and tax recalculation)
+F003,PaymentService,Dependency timeout / external service handling,HIGH,failure=TimeoutException; relatedDefects=2; commit=c103 (Update payment retry handling)
+F004,PaymentService,Retry/idempotency handling,HIGH,failure=AssertionError; relatedDefects=2; commit=c103 (Update payment retry handling)
+F005,AuthenticationService,Authentication/token validation logic,HIGH,failure=AssertionError; relatedDefects=2; commit=c101 (Refactor token validation flow)
+F006,OrderService,Order workflow state transition,HIGH,failure=AssertionError; relatedDefects=1; commit=c107 (Refactor order state transitions)
+F007,InventoryService,Inventory concurrency / rollback handling,HIGH,failure=AssertionError; relatedDefects=2; commit=c109 (Change reservation logic)
+F008,SearchService,Component regression or validation defect,LOW,failure=AssertionError; relatedDefects=1; commit=c104 (Improve search filters)

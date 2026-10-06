@@ -1,0 +1,9 @@
+metric,value
+model,Logistic Regression
+trainSize,7
+testSize,3
+accuracy,0.6667
+components,10
+defects,12
+failureEvents,8
+requirements,10

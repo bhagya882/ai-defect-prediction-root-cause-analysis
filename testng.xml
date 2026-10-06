@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AI Defect Intelligence Suite" verbose="1">
+    <test name="Defect Intelligence Tests">
+        <classes>
+            <class name="com.bhagya.qa.tests.DataPipelineTests"/>
+            <class name="com.bhagya.qa.tests.CodeChangeImpactTests"/>
+            <class name="com.bhagya.qa.tests.DefectPredictionTests"/>
+            <class name="com.bhagya.qa.tests.RootCauseAnalysisTests"/>
+            <class name="com.bhagya.qa.tests.FailureClusteringTests"/>
+            <class name="com.bhagya.qa.tests.DashboardSeleniumTests"/>
+        </classes>
+    </test>
+</suite>
